@@ -28,4 +28,32 @@ print(np.random.rand(5))
 amolsArr = np.random.randint(0,100,20)
 print(amolsArr)
 print(amolsArr.argmax())
-print(amolsArr.reshape(5,4))
+#print(amolsArr.reshape(5,4))
+
+#Indexing and slicing
+
+arr = np.arange(0,21)
+print(arr)
+print(arr[16:])
+slice = arr[:4]
+print(slice)
+
+#copy array
+arr2 = arr.copy()
+
+
+#Working with 2D arrays
+d2arr = np.array([[1,2,3],[11,12,13],[21,22,23]])
+print(d2arr[1,2])
+print(d2arr[:1,1:])
+
+#conditional selection
+print(amolsArr[amolsArr >40])
+
+
+
+
+
+
+
+
