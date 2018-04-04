@@ -16,10 +16,16 @@ print(np.ones(6))
 #Properly spaced array
 print(np.linspace(0,20,3))
 print(np.linspace(0,20,5))
-print(np.linspace(0,20,7))
+#print(np.linspace(0,20,7))
 
 #Randon 1D array between 0-1
 print(np.random.rand(5))
 
 #Randon 2D array between 0-1
-print(np.random.rand(5,8))
+#print(np.random.rand(5,8))
+
+#Random integer array
+amolsArr = np.random.randint(0,100,20)
+print(amolsArr)
+print(amolsArr.argmax())
+print(amolsArr.reshape(5,4))
