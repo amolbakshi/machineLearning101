@@ -50,7 +50,18 @@ print(d2arr[:1,1:])
 #conditional selection
 print(amolsArr[amolsArr >40])
 
+# Array of same numbers
+arr7 = np.full(7,7)
+ar = np.ones((2,2)) * 3
+print(ar)
 
+evenArray = np.arange(10,51,2)
+print(evenArray)
+
+
+## aRRAY BY SHAPE
+array2d = np.arange(12).reshape(4,3)
+print(array2d)
 
 
 
